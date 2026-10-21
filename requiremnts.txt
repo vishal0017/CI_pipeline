@@ -1,0 +1,4 @@
+pandas
+scikit_learn
+flask
+prometheus_flask_exporter
