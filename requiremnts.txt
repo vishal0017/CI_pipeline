@@ -1,4 +1,5 @@
 pandas
-scikit_learn
+scikit-learn
 flask
-prometheus_flask_exporter
+joblib
+pytest
