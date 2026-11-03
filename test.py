@@ -14,9 +14,9 @@ print(X.head())
 
 pred=model.predict(X)
 accuracy=accuracy_score(pred,y)
-print(accuracy_score)
+print(accuracy)
 
+assert accuracy>=0.99
+print("Test 1 passed")
 assert len(pred)==len(y)
-assert accuracy>=0.50
-
 print("All tests passed")
